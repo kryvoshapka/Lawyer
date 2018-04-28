@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Roboto+Condensed');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar-expand-xl {
+    background-color: #0a4660;
+}
+
+.navbar .navbar-brand {
+    color: #b7e05c;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #b7e05c;
+}
+
+.burger {
+    color: white;
+    font-size: 24px;
+}
+
+.fa-phone {
+    font-size: 24px;
+    color: #b7e05c;
+    padding-right: 5px;
+    padding-top: 7px;
+}
+
+.phone-number {
+    font-size: 24px;
+    color: white;
+}
+
+.phone-number:hover {
+    color: #b7e05c;
+    text-decoration: none;
+}
+
+.banner {
+    background-image: url("../images/doctors.jpg");
+    height: 500px;
+    background-size: cover;
+}
+
+.main {
+    padding: 0;
+}
+
+.col-4 {
+    background-color: #b7e05c;
+    height: 300px;
+    padding-right: 5px;
+}
+
+.col-8 {
+    background-color: #0a4660;
+    height: 500px;
+}
+
+@media (max-width: 1000px) {
+    h4 {
+        font-size: 1rem;
+    }
+    .info-title, .info-text {
+        font-size: 12px;
+    }
+}
