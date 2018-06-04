@@ -971,6 +971,12 @@ span {
     padding-left: 70px;
 }
 
+.why-choose-text {
+    width: 80%;
+    margin-left: auto;
+
+}
+
 .reason-1, .reason-2, .reason-3, .reason-4, .reason-5 {
     padding: 20px 0 20px 70px;
     position: relative;
@@ -1230,9 +1236,10 @@ span {
     padding: 40px 0;
 }
 
-.price button {
+.price .letter {
     align-self: center;
     margin-bottom: 30px;
+    margin-right: 0;
 }
 
 @media(max-width: 992px){
@@ -1256,7 +1263,7 @@ footer .container button {
      box-shadow: none;
      position: absolute;
      top: 10px;
-     left: calc(50% - 105px);
+     left: calc(50% - 95px);
 }
 
 .section-1, .section-2 {
